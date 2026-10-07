@@ -5,3 +5,25 @@ Thumbs.db
 # Editor settings
 .vscode/
 .idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Common caches and build output
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.cache/
+node_modules/
+dist/
+build/
+coverage/
